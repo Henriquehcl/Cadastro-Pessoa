@@ -1,0 +1,74 @@
+:root {
+    --cor-principal: rgb(80, 51, 28);
+    --cor-fonte-clara: rgb(207, 192, 179);
+    --fonte-principal: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--cor-fonte-clara);
+    color: var(--cor-fonte-clara);
+}
+
+main {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 30px 20px;
+    height: auto;
+}
+
+
+.icones img {
+    width: 60px;
+    margin: 0.3rem;
+    padding-bottom: 0.5rem;
+}
+
+.botao {
+    padding: 1rem;
+}
+
+.container-fluid {
+    background-color: var(--cor-principal);
+}
+.container-fluid img{
+	width: 1.5rem;
+}
+
+.container {
+    background-color: var(--cor-principal);
+}
+
+.btn {
+    margin: 0 0.5rem 0 0;
+    padding: 1%;
+}
+
+form {
+    padding: 1rem;
+}
+
+#disabledTextInput{
+	width: fit-content;
+}
+
+.form-control {
+    background-color: aliceblue;
+}
+
+.card-footer {
+    background-color: var(--cor-principal);
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    position: 0;
+    /* position: fixed;
+  z-index: 1; */
+}
+
+.table-thead {
+    background-color: rgb(59, 40, 23);
+}
+
+.footer-images img{
+    width: 1.5rem;
+}
